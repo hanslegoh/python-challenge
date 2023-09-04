@@ -78,4 +78,3 @@ with open(export_file, 'w', newline='') as ResultFile:
 
     # Write the summarized results to the txt file
     txtwrite.writerows(listoflists(ResultTable))
-
