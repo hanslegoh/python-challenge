@@ -52,11 +52,17 @@ with open(budget_csv) as csv_file:
 
     # Summarize the results
     ResultTable = ['Financial Analysis'
+                    ,' '
                     ,'----------------------------------'
+                    ,' '
                     ,f'Total Months: {MonthCount}'
+                    ,' '
                     ,f'Total: ${TotalPL}'
+                    ,' '
                     ,f'Average Change: ${AverageChange}'
+                    ,' '
                     ,f'Greatest Increase in Profits: {IncreaseDate} (${GreatestInProfits})'
+                    ,' '
                     ,f'Greatest Decrease in Profits: {DecreaseDate} (${GreatestDeProfits})']
 
     print(*ResultTable, sep="\n")
